@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bismark's Portfolio</title>
+    <style>
+        body {
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .profile_container {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            max-width: 800px;
+            width: 90%;
+            margin: 40px 0;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.2em;
+            text-align: center;
+            color: #2a2a2a;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        p {
+            margin-bottom: 1.5em;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 20px;
+        }
+
+        .skills-container {
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.95em;
+            background-color: #fdfdfd;
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+        .skill {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+        .skill-name {
+            display: inline-block;
+            width: 150px;
+            font-weight: bold;
+        }
+        .skill-bar {
+            color: #aaa;
+        }
+        .skill-bar strong {
+            color: #007bff;
+            font-weight: 900; /* V를 위한 가장 강한 볼드 */
+        }
+        .skill-bar .faint-bold {
+            color: #6c757d; /* 컨텍스트를 위한 흐린 회색 */
+            font-weight: 600; /* 세미 볼드 */
+        }
+        .project-list {
+            padding-left: 0;
+            list-style: none;
+        }
+        .project-card {
+            background-color: #fdfdfd;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: box-shadow 0.3s ease;
+        }
+        .project-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+        }
+        .project-card h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+        .project-card p {
+            margin-bottom: 5px;
+            font-size: 0.95em;
+        }
+        .contact-links p {
+            text-align: center;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile_container">
+    <h1>👋 Welcome to Bismark's Storage</h1>
+
+    <h2>📖 About Me</h2>
+    <p>
+        Hello, and thank you for visiting!<br>
+        I'm Bismark, a student developer passionate about creating games that offer more than just fun!<br>
+        I aim to build moving experiences and lasting memories.<br>
+        And now, I`m currently building my <strong>programming knowledge</strong> with the goal of working in the <strong>game industry.</strong>
+    </p>
+    <p>
+        I hope my projects provide you with a great experience.<br>
+        <strong>Feedback and advice are always welcome.</strong><br>
+        Thank you in advance!
+    </p>
+
+    <h2>🛠️ Tech Stack</h2>
+    <div class="skills-container">
+        <div class="skill">
+            <span class="skill-name">C/C++</span>
+            <span class="skill-bar">| NoExp ----- Beginner ----- <strong>Amateur</strong> ----- Pro ----- Master |</span>
+        </div>
+        <div class="skill">
+            <span class="skill-name">DirectX</span>
+            <span class="skill-bar">| NoExp ----- Beginner ----- <strong>Amateur</strong> ----- Pro ----- Master |</span>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Unity</span>
+            <span class="skill-bar">| NoExp ----- <span class="faint-bold">Beginner --</span><strong>V</strong><span class="faint-bold">-- Amateur</span> ----- Pro ----- Master |</span>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Unreal Engine</span>
+            <span class="skill-bar">| <strong>NoExp</strong> ----- Beginner ----- Amateur ----- Pro ----- Master |</span>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Git</span>
+            <span class="skill-bar">| NoExp ----- Beginner ----- <strong>Amateur</strong> ----- Pro ----- Master |</span>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Adobe Photoshop</span>
+            <span class="skill-bar">| NoExp ----- Beginner ----- <span class="faint-bold">Amateur --</span><strong>V</strong><span class="faint-bold">-- Pro</span> ----- Master |</span>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Autodesk Maya</span>
+            <span class="skill-bar">| NoExp ----- <strong>Beginner</strong> ----- Amateur ----- Pro ----- Master |</span>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Premiere Pro</span>
+            <span class="skill-bar">| NoExp ----- <span class="faint-bold">Beginner --</span><strong>V</strong><span class="faint-bold">-- Amateur</span> ----- Pro ----- Master |</span>
+        </div>
+        <div class="skill">
+            <span class="skill-name">PowerDirector</span>
+            <span class="skill-bar">| NoExp ----- Beginner ----- <span class="faint-bold">Amateur --</span><strong>V</strong><span class="faint-bold">-- Pro</span> ----- Master |</span>
+        </div>
+        <div class="skill">
+            <span class="skill-name">After Effects</span>
+            <span class="skill-bar">| NoExp ----- <span class="faint-bold">Beginner --</span><strong>V</strong><span class="faint-bold">-- Amateur</span> ----- Pro ----- Master |</span>
+        </div>
+    </div>
+    
+    <h2>🌐 Language Stack</h2>
+    <div class="skills-container">
+        <div class="skill">
+            <span class="skill-name">Korean</span>
+            <span class="skill-bar">| Travel ----- Conversational ----- Business ----- <strong>Native</strong> |</span>
+        </div>
+        <div class="skill">
+            <span class="skill-name">English</span>
+            <span class="skill-bar">| Travel ----- <strong>Conversational</strong> ----- Business ----- Native |</span>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Japanese</span>
+            <span class="skill-bar">| Travel ----- Conversational ----- <strong>Business</strong> ----- Native |</span>
+        </div>
+    </div>
+
+    <h2>📂 Projects So Far</h2>
+    <p>
+        Here are the projects I've created, along with brief development info and links.<br>
+        <em>*All links lead to their respective GitHub repositories.</em>
+    </p>
+    <ul class="project-list">
+        <li class="project-card">
+            <h3><a href="https://github.com/Bismark-PG/Void_Nova" target="_blank">Void Nova</a></h3>
+            <p><strong>Environment : </strong>Unity, C# Script</p>
+            <p><strong>Dev time for prototype : </strong>Approx 2 Weeks</p>
+        </li>
+        <li class="project-card">
+            <h3><a href="https://github.com/Bismark-PG/Void_Nova_Terminal_Descent" target="_blank">Void Nova: Terminal Descent</a></h3>
+            <p><strong>Environment : </strong>C/C++, Visual Studio, DirectX 11</p>
+            <p><strong>Dev time for prototype : </strong>Approx 1 Month</p>
+        </li>
+    </ul>
+
+    <div class="contact-links">
+        <h2>📞 Contact & Links</h2>
+        <p>
+            🔗 <a href="https://github.com/Bismark-PG" target="_blank">GitHub</a> | 
+            📺 <a href="https://www.youtube.com/@Bismark_Storage" target="_blank">YouTube</a>
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
