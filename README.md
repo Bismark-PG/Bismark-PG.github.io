@@ -20,5 +20,5 @@ If you'd like to see a brief introduction about me or a list of my projects, ple
 
 ---
 
-## 🌐 [Bismark`s Portfolio](https://bismark-pg.github.io/)
+## 🌐 [Bismark's Portfolio](https://bismark-pg.github.io/)
 - **Thank You!**
