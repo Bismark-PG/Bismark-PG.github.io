@@ -102,11 +102,25 @@
             border: 1px solid #eee;
             border-radius: 8px;
             padding: 20px;
-            margin-bottom: 15px;
-            transition: box-shadow 0.3s ease;
+            margin-bottom: 20px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            position: relative;
         }
         .project-card:hover {
-            box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        .project-card.ongoing {
+            border-left: 6px solid #007bff;
+            background-color: #f8faff;
+        }
+        .ongoing-label {
+            display: inline-block;
+            color: #ff4757;
+            font-size: 0.85em;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 8px;
         }
         .contact-links {
              text-align: center;
@@ -275,46 +289,47 @@
     </p>
     <ul class="project-list">
         <!-- Main, Now Deving -->
-        <li class="project-card">
+        <li class="project-card ongoing">
+            <span class="ongoing-label">🔴 Currently Developing</span>
             <h3><a href="https://github.com/Bismark-PG/HYPER_TRIGGER" target="_blank">HYPER TRIGGER</a></h3>
-            <p><strong>Environment : </strong>C/C++, HLSL, Visual Studio, DirectX 11, ImGui, Assimp, XAudio2</p>
-            <p><strong>Last Update date : </strong>2026.02.13</p>
-            <p><strong>Prototype done date : </strong>2026.01.13</p>
-            <p><strong>Dev time for prototype : </strong>Approx 1 Month</p>
+            <p><strong>Environment :</strong> C/C++, HLSL, Visual Studio, DirectX 11, ImGui, Assimp, XAudio2</p>
+            <p><strong>Last Updated :</strong> 2026.02.13</p>
+            <p><strong>Prototype Completed :</strong> 2026.01.13</p>
+            <p><strong>Prototype Dev Period :</strong> Approx. 1 Month</p>
         </li>
         
         <!-- Main, Dev Done Or Rest Now -->
         <li class="project-card">
-            <h3><a href="https://github.com/Bismark-PG/Void_Nova_Terminal_Descent" target="_blank">Void Nova: Terminal Descent</a></h3>
-            <p><strong>Environment : </strong>C/C++, Visual Studio, DirectX 11</p>
-            <p><strong>Last Update date : </strong>2025.10.26</p>
-            <p><strong>Prototype done date : </strong>2025.09.09</p>
-            <p><strong>Dev time for prototype : </strong>Approx 1 Month</p>
-        </li>   
+            <h3><a href="https://github.com/Bismark-PG/Void_Nova_Terminal_Descent" target="_blank">Void Nova : Terminal Descent</a></h3>
+            <p><strong>Environment :</strong> C/C++, Visual Studio, DirectX 11</p>
+            <p><strong>Last Updated :</strong> 2025.10.26</p>
+            <p><strong>Prototype Completed :</strong> 2025.09.09</p>
+            <p><strong>Prototype Dev Period :</strong> Approx. 1 Month</p>
+        </li>  
 
         <!-- Sub, Dev Done -->       
         <li class="project-card">
             <h3><a href="https://github.com/Bismark-PG/Check_Beat" target="_blank">Check Beat</a></h3>
-            <p><strong>Environment : </strong>Unity, C# Script</p>
-            <p><strong>Last Update date : </strong>Editing Now</p>
-            <p><strong>Prototype done date : </strong>Editing Now</p>
-            <p><strong>Dev time for prototype : </strong>Approx 1 Weeks</p>
-        </li>       
+            <p><strong>Environment :</strong> Unity, C# Script</p>
+            <p><strong>Last Updated :</strong> Editing Now</p>
+            <p><strong>Prototype Completed :</strong> Editing Now</p>
+            <p><strong>Prototype Dev Period :</strong> Approx. 1 Week</p>
+        </li>        
         
         <li class="project-card">
             <h3><a href="https://github.com/Bismark-PG/Project_SLIDER" target="_blank">Project : SLIDER</a></h3>
-            <p><strong>Environment : </strong>Unity, C# Script</p>
-            <p><strong>Last Update date : </strong>2025.12.18</p>
-            <p><strong>Prototype done date : </strong>2025.12.16</p>
-            <p><strong>Dev time for prototype : </strong>Approx 2 Weeks</p>
+            <p><strong>Environment :</strong> Unity, C# Script</p>
+            <p><strong>Last Updated :</strong> 2025.12.18</p>
+            <p><strong>Prototype Completed :</strong> 2025.12.16</p>
+            <p><strong>Prototype Dev Period :</strong> Approx. 2 Weeks</p>
         </li>
         
         <li class="project-card">
             <h3><a href="https://github.com/Bismark-PG/Void_Nova" target="_blank">Void Nova</a></h3>
-            <p><strong>Environment : </strong>Unity, C# Script</p>
-            <p><strong>Last Update date : </strong>2025.07.11</p>
-            <p><strong>Prototype done date : </strong>2025.07.10</p>
-            <p><strong>Dev time for prototype : </strong>Approx 2 Weeks</p>
+            <p><strong>Environment :</strong> Unity, C# Script</p>
+            <p><strong>Last Updated :</strong> 2025.07.11</p>
+            <p><strong>Prototype Completed :</strong> 2025.07.10</p>
+            <p><strong>Prototype Dev Period :</strong> Approx. 2 Weeks</p>
         </li>
     </ul>
 
