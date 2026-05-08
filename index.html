@@ -110,13 +110,25 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             transform: translateY(-2px);
         }
-        .project-card.ongoing {
+        .project-card.main-ongoing {
             border-left: 6px solid #007bff;
+            background-color: #e1f5fe;
+        }
+        .project-card.sub-ongoing {
+            border-left: 6px solid #FFD100;
             background-color: #f8faff;
         }
-        .ongoing-label {
+        .ongoing-main-label {
             display: inline-block;
             color: #ff4757;
+            font-size: 0.85em;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        .ongoing-sub-label {
+            display: inline-block;
+            color: #FFD100;
             font-size: 0.85em;
             font-weight: bold;
             text-transform: uppercase;
@@ -289,8 +301,17 @@
     </p>
     <ul class="project-list">
         <!-- Main, Now Deving -->
-        <li class="project-card ongoing">
-            <span class="ongoing-label">🔴 Currently Developing</span>
+        <li class="project-card main-ongoing">
+            <span class="ongoing-main-label">🔴 Primary Project</span>
+            <h3><a href="https://github.com/Bismark-PG/Neon" target="_blank">Editing Now</a></h3>
+            <p><strong>Environment :</strong> C/C++, HLSL, Visual Studio, DirectX 11</p>
+            <p><strong>Last Updated :</strong> Editing Now</p>
+            <p><strong>Prototype Completed :</strong> Editing Now</p>
+            <p><strong>Prototype Dev Period :</strong> Editing Now</p>
+        </li>
+        
+        <li class="project-card sub-ongoing">
+            <span class="ongoing-sub-label">🟡 Side Project</span>
             <h3><a href="https://github.com/Bismark-PG/HYPER_TRIGGER" target="_blank">HYPER TRIGGER</a></h3>
             <p><strong>Environment :</strong> C/C++, HLSL, Visual Studio, DirectX 11, ImGui, Assimp, XAudio2</p>
             <p><strong>Last Updated :</strong> 2026.02.13</p>
